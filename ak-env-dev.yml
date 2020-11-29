@@ -1,0 +1,12 @@
+name: ak-env-dev
+dependencies:
+  - autopep8
+  - numpy
+  - pandas
+  - requests
+  - bs4
+  - pip
+  - pip:
+    - protlib
+    - websocket_client
+    - alice_blue 

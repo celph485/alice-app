@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.enabled": true,
+    "editor.fontFamily": "Source Code Pro",
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402",
+    ],
+    "python.linting.pylintArgs": [
+        "--max-line-length=120",
+        "--disable=C0114,C0115,C0116,E0611",
+        "--max-parents=15",
+        "--generated-members=sqlite3.*",
+        "--extension-pkg-whitelist=sqlite3",
+    ],
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ]
+  }
+}
